@@ -119,7 +119,7 @@ function checkforwinner()
         setwinner("O", [1,4,7]);
         return true;
     }
-    else if(field[3] == "O" && field[5] == "O" && field[8] == "O")
+    else if(field[2] == "O" && field[5] == "O" && field[8] == "O")
     {
         setwinner("O", [3,5,8]);
         return true;
