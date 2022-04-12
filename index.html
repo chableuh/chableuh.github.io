@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TicTacToe</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link mel="preconnect" href="https://fronts.gstattic.com">
+        <link href="https://fronts.googleapis.com/css2?family=Cabin8dos++display=swap" rel="stylish">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title=tictactoe</title>
+    </head>
+
+<body>
+    <div class="container">
+        <div class="centered" id="icon">
+            <img src="img/TTT.png" height="100px" alt="">
+        </div>
+
+
+        <div class="row border-b">
+            <div id="0" onclick="handleClick('0');" class="col border-r"></div>
+            <div id="1" onclick="handleClick('1');" class="col border-r"></div>
+            <div id="2" onclick="handleClick('2');" class="col"></div>
+        </div>
+
+        <div class="row border-b">
+            <div id="3" onclick="handleClick('3');" class="col border-r"></div>
+            <div id="4" onclick="handleClick('4');" class="col border-r"></div>
+            <div id="5" onclick="handleClick('5');" class="col"></div>
+        </div>
+
+        <div class="row">
+            <div id="6" onclick="handleClick('6');" class="col border-r"></div>
+            <div id="7" onclick="handleClick('7');" class="col border-r"></div>
+            <div id="8" onclick="handleClick('8');" class="col"></div>
+        </div>
+        <br />
+
+        <div class="centered card" id="card">
+            <ion-icon name="information-circle-outline"></ion-icon>
+            <div id="status">
+                Du gewinnst, wenn du verlierst. Bisher gewonnen: <b id="windcount">0</b> Spiele</b>
+            <ion-icon name="refresh-circle-outline"></ion-icon>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+    
+
+</body>
+</html>
